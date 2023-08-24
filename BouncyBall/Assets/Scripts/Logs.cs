@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class flat : MonoBehaviour
 {
-     public float bounceCooldown = 0.5f; // Cooldown time between bounces
+    public float bounceCooldown = 0.5f; // Cooldown time between bounces
 
     private float lastBounceTime;
     private int counter = 0;
